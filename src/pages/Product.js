@@ -18,7 +18,7 @@ const Product = () => {
 
     
       <div className="flex justify-center mb-6">
-        <ul className="flex space-x-4 bg-gray-100 border p-3 rounded-lg">
+        <ul className="flex space-x-4 bg-gray-100 border p-3 rounded-lg flex-wrap sm:{flex-col items-center justify-evenly space-y-4}">
         <li
             className="cursor-pointer text-sm font-medium px-3 py-1 rounded-md hover:bg-red-100 text-gray-700"
             onClick={() => setSelectedCategory(null)}
